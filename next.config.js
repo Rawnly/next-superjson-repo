@@ -2,7 +2,8 @@
 const nextConfig = {
   experimental: {
     appDir: true,
+    swcPlugins: [["next-superjson-plugin", { debug: true }]],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
